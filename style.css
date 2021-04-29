@@ -1,4 +1,4 @@
- body {
+  body {
 font: 14px Arial, Helvetica, sans-serif; /*Рубленый шрифт текста */
 /*margin: 50; Отступы на странице */
 
@@ -59,39 +59,40 @@ li {
     }
 .header {/* вверхний */
 background: #FFEFD5; /* Цвет фона шапки */
-padding: 10px; /* Поля вокруг текста */
+padding: 5px; /* Поля вокруг текста */
 border: 3px solid #333; /* Рамка вверхнего меню */
 margin-top: 80px;
 margin-left: 80px;
 margin-right: 80px;
-margin-bottom:10px;
+margin-bottom:0px;
 }
 .next {/* вверхний нижний */
 background: #FFEFD5; /* Цвет фона шапки */
-padding: 10px; /* Поля вокруг текста */
+padding: 5px; /* Поля вокруг текста */
 border: 3px solid #333; /* Рамка вверхнего меню */
-margin-top: 10px;
+margin-top: 0px;
 margin-left: 80px;
 margin-right: 80px;
-margin-bottom:10px;
+margin-bottom:0px;
 }
-
 .content {/* левый */
 background: #FFFAFA;
-margin: 10px 80px 80px 10px; /* Значения отступа от правого блока */
-padding: 10px; /* Поля внутри блока */
+margin-top: 0px;
+margin-left: 80px;
+margin-right: 80px;
+margin-bottom:0px; /* Значения отступа от правого блока */
+padding: 5px; /* Поля внутри блока */
 border: 3px solid #333; /* Рамка контента */
 
 }
-
 .footer {/* нижний */
 background:#FFEFD5; /* Цвет фона подвал (футера) */
 padding: 5px; /* Поля внутри блока */
 border: 3px solid #333; /* Рамка контента */
-margin-top: 10px;
+margin-top: 0px;
 margin-left: 80px;
 margin-right: 80px;
-margin-bottom:10px;
+margin-bottom:0px;
 text-align: center;
 color: #00000; /* Цвет текста футера */
 clear: left; /* Отменяем действие float */
