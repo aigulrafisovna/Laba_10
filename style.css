@@ -1,0 +1,113 @@
+ body {
+font: 14px Arial, Helvetica, sans-serif; /*Рубленый шрифт текста */
+/*margin: 50; Отступы на странице */
+
+}
+h1 {
+font-size: 36px; /* Размер шрифта заголовка шапки */
+margin: 10; /* Убираем отступы */
+text-align: center;
+color: #000000; /* Цвет текста заголовка шапки */
+
+}
+
+h2 {
+margin-top: 5; /* Убираем отступ сверху */
+}
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  background:#FFEFD5; /*добавляем фон всему меню*/
+  height: 50px; /*задаем высоту*/
+}
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#FFEFD5; /*добавляем фон к пункту меню*/
+  color: #000000; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+  border: 1px solid #000000; /*добавляем бордюр справа*/
+  
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+
+li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  position:relative; /*задаем позицию для позиционирования*/
+}
+     
+    /*Стили для скрытого выпадающего меню*/
+    li > ul {
+        position:absolute;
+        top:25px;
+        display:none;   
+    }
+     
+    /*Делаем скрытую часть видимой*/
+    li:hover > ul {
+        display:block; 
+        width:250px;  /*Задаем ширину выпадающего меню*/      
+    }
+   li:hover > ul > li {
+        float:none; /*Убираем горизонтальное позиционирование*/
+    }
+.header {/* вверхний */
+background: #FFEFD5; /* Цвет фона шапки */
+padding: 10px; /* Поля вокруг текста */
+border: 3px solid #333; /* Рамка вверхнего меню */
+margin-top: 80px;
+margin-left: 80px;
+margin-right: 80px;
+margin-bottom:10px;
+}
+.next {/* вверхний нижний */
+background: #FFEFD5; /* Цвет фона шапки */
+padding: 10px; /* Поля вокруг текста */
+border: 3px solid #333; /* Рамка вверхнего меню */
+margin-top: 10px;
+margin-left: 80px;
+margin-right: 80px;
+margin-bottom:10px;
+}
+.sidebar {/* правый */
+float: right; /* Обтекание справа */
+border: 3px solid #333; /* Рамка правого меню */
+width: 37.5%; /* Ширина правой колонки */
+padding: 10px; /* Поля внутри блока */
+background: #FFFAFA;
+margin-top: 0px;
+margin-left: 80px;
+margin-right: 80px;
+margin-bottom:10px;
+
+}
+.content {/* левый */
+background: #FFFAFA;
+margin: 10px 45% 10px 80px; /* Значения отступа от правого блока */
+padding: 10px; /* Поля внутри блока */
+border: 3px solid #333; /* Рамка контента */
+
+}
+
+.footer {/* нижний */
+background:#FFEFD5; /* Цвет фона подвал (футера) */
+padding: 5px; /* Поля внутри блока */
+border: 3px solid #333; /* Рамка контента */
+margin-top: 10px;
+margin-left: 80px;
+margin-right: 80px;
+margin-bottom:10px;
+text-align: center;
+color: #00000; /* Цвет текста футера */
+clear: left; /* Отменяем действие float */
+}
+.fig {
+float:right;
+}
+ 
