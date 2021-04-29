@@ -64,23 +64,23 @@ border: 3px solid #333; /* Рамка вверхнего меню */
 margin-top: 80px;
 margin-left: 80px;
 margin-right: 80px;
-margin-bottom:0px;
+
 }
 .next {/* вверхний нижний */
 background: #FFEFD5; /* Цвет фона шапки */
 padding: 5px; /* Поля вокруг текста */
 border: 3px solid #333; /* Рамка вверхнего меню */
-margin-top: 0px;
+
 margin-left: 80px;
 margin-right: 80px;
-margin-bottom:0px;
+
 }
 .content {/* левый */
 background: #FFFAFA;
-margin-top: 0px;
+
 margin-left: 80px;
 margin-right: 80px;
-margin-bottom:0px; /* Значения отступа от правого блока */
+ /* Значения отступа от правого блока */
 padding: 5px; /* Поля внутри блока */
 border: 3px solid #333; /* Рамка контента */
 
@@ -89,10 +89,10 @@ border: 3px solid #333; /* Рамка контента */
 background:#FFEFD5; /* Цвет фона подвал (футера) */
 padding: 5px; /* Поля внутри блока */
 border: 3px solid #333; /* Рамка контента */
-margin-top: 0px;
+
 margin-left: 80px;
 margin-right: 80px;
-margin-bottom:0px;
+
 text-align: center;
 color: #00000; /* Цвет текста футера */
 clear: left; /* Отменяем действие float */
