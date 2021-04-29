@@ -75,19 +75,14 @@ margin-left: 80px;
 margin-right: 80px;
 margin-bottom:10px;
 }
-.sidebar {/* правый */
-float: right; /* Обтекание справа */
-border: 3px solid #333; /* Рамка правого меню */
-width: 37.5%; /* Ширина правой колонки */
-padding: 10px; /* Поля внутри блока */
+
+.content {/* левый */
 background: #FFFAFA;
-margin-top: 0px;
-margin-left: 80px;
-margin-right: 80px;
-margin-bottom:10px;
+margin: 10px 45% 10px 80px; /* Значения отступа от правого блока */
+padding: 10px; /* Поля внутри блока */
+border: 3px solid #333; /* Рамка контента */
 
 }
-
 
 .footer {/* нижний */
 background:#FFEFD5; /* Цвет фона подвал (футера) */
